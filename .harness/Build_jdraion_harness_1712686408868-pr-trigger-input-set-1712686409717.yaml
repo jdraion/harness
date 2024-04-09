@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jdraion_harness_1712686408868-pr-trigger-input-set
+  identifier: Build_jdraion_harness_1712686408868prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_jdraion_harness_1712686408868
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
