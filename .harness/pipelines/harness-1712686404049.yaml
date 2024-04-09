@@ -35,3 +35,5 @@ pipeline:
         type: CI
         delegateSelectors:
           - docker-delegate
+  delegateSelectors:
+    - macos-docker-delegate
