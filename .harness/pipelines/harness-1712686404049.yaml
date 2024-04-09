@@ -37,3 +37,4 @@ pipeline:
           - docker-delegate
   delegateSelectors:
     - macos-docker-delegate
+    - macos-arm64
