@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jdraion_harness_1712710845835-push-trigger-input-set
+  identifier: Build_jdraion_harness_1712710845835pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: helloworld
+  pipeline:
+    identifier: Build_jdraion_harness_1712710845835
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
